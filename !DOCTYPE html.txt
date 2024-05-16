@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="hero">
+            <img src="img.jpg.jpg" alt="Anindita Acharjee (web developer)">
+            <h1>Crafting Digital Experiences That Matter</h1>
+            <p>Full-stack Web Developer specializing in front-end development with expertise in HTML, CSS, JavaScript, and React</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer dedicated to creating engaging and user-friendly digital experiences. With a strong foundation in front-end development and a keen eye for design, I strive to craft websites and applications that not only look great but also provide a seamless user experience.</p>
+            <h3>Education</h3>
+            <p>I graduated with a Bachelor's degree in Computer Science from KIIT University. During my time there, I developed a solid understanding of software engineering principles and honed my skills in web development through coursework and personal projects.</p>
+            <h3>Professional Experience</h3>
+            <p>Over the past few years, I've had the opportunity to work with several clients and companies, where I've gained valuable experience in building responsive and dynamic web applications. I've collaborated with cross-functional teams to deliver high-quality software solutions, meeting project deadlines and exceeding client expectations.</p>
+        </div>
+    </section>
+            <section id="projects">
+                <div class="project-gallery">
+                    <h2>Projects</h2>
+                    <div class="project-card">
+                        <h3>Project Title 1</h3>
+                        <p>Description of Project 1</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Title 2</h3>
+                        <p>Description of Project 2</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="send_email.php" method="POST">
+                <input type="text" name="name" placeholder="Anindita Acharjee" required>
+                <input type="email" name="email" placeholder="Anindita13@gmail.com" required>
+                <textarea name="message" placeholder="Enter your message here" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </footer>

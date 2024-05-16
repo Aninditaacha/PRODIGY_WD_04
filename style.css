@@ -1,0 +1,23 @@
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+}
+
+.project-card {
+    background-image: url('img.jpg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 10px;
+    height: auto;
+}
+
